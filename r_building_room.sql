@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2018 at 04:55 PM
+-- Generation Time: Mar 30, 2018 at 04:58 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 5.6.34
 
@@ -34,14 +34,6 @@ CREATE TABLE `r_building_room` (
   `BUILDING_FK` int(11) NOT NULL,
   `DELETE_FLAG` bit(1) NOT NULL DEFAULT b'0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `r_building_room`
---
-
-INSERT INTO `r_building_room` (`ROOM_ID`, `ROOM_NAME`, `BUILDING_FK`, `DELETE_FLAG`) VALUES
-(3, 'Kinder, Morning', 1, b'0'),
-(4, 'POPPPPPP', 2, b'1');
 
 --
 -- Indexes for dumped tables
